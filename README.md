@@ -1,2 +1,1 @@
-# AKINDU-MD-PAIR
-Akindu Md Pair Site.
+# PAIR-WEB-SC
