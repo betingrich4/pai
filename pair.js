@@ -76,29 +76,29 @@ var randomItem = selectRandomItem(items);
                         let md = "DARK-SILENCE-MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*┏━━━━━━━━━━━━━━*
-*┃DARK-SILENCE-MD SESSION IS*
+*┃AKINDU-MD SESSION IS*
 *┃SUCCESSFULLY*
 *┃CONNECTED ✅🔥*
 *┗━━━━━━━━━━━━━━━*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❶ || Creator = SILENT LOVER⁴³²👨🏻‍💻*
+*❶ || Creator = AKINDU*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❷ || WhatsApp Channel =* https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s
+*❷ || WhatsApp Channel =* 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❸ || Owner =* https://wa.me/+923096287432
+*❸ || Owner =* 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❹ || Repo =* https://github.com/DARKSILENCE04/DARK-SILENCE-MD
+*❹ || Repo =* 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❺ || You Tube =* https://youtube.com/@silentlover432-king?si=UkBkCZswRFaWHOZl
+*❺ || You Tube =* 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*💙POWERD BY SILENTLOVER432💛*`; 
+*AKINDU MD*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "SILENT LOVER⁴³²👨🏻‍💻",
-thumbnailUrl: "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s",
+title: "AKINDU MD",
+thumbnailUrl: "",
+sourceUrl: "",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -108,29 +108,29 @@ renderLargerThumbnail: true
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
                             let desc = `*┏━━━━━━━━━━━━━━*
-*┃DARK-SILENCE-MD SESSION IS*
+*┃AKINDU-MD SESSION IS*
 *┃SUCCESSFULLY*
 *┃CONNECTED ✅🔥*
 *┗━━━━━━━━━━━━━━━*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❶ || Creator = SILENT LOVER⁴³²👨🏻‍💻*
+*❶ || Creator =  AKINDU MD*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❷ || WhatsApp Channel =* https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s
+*❷ || WhatsApp Channel =* 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❸ || Owner =* https://wa.me/+923096287432
+*❸ || Owner =* 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❹ || Repo =* https://github.com/DARKSILENCE04/DARK-SILENCE-MD
+*❹ || Repo =* 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❺ || You Tube =* https://youtube.com/@silentlover432-king?si=UkBkCZswRFaWHOZl
+*❺ || You Tube =* 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*💙POWERD BY SILENTLOVER432💛*`;
+*AKINDU MD*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "SILENT LOVER⁴³²👨🏻‍💻",
-thumbnailUrl: "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s",
+title: "AKINDU MD",
+thumbnailUrl: "",
+sourceUrl: "",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
