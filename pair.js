@@ -73,30 +73,18 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "AKINDU-MD~" + string_session;
+                        let md = "Mercedes~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*┏━━━━━━━━━━━━━━*
-*┃AKINDU-MD SESSION IS*
+*┃SESSION IS*
 *┃SUCCESSFULLY*
 *┃CONNECTED ✅🔥*
-*┗━━━━━━━━━━━━━━━*
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❶ || Creator = AKINDU*
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❷ || WhatsApp Channel =* 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❸ || Owner =* 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❹ || Repo =* 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❺ || You Tube =* 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*AKINDU MD*`; 
+*┗━━━━━━━━━━━━━━━*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "AKINDU MD",
+title: "Mercedes",
 thumbnailUrl: "",
 sourceUrl: "",
 mediaType: 1,
@@ -108,27 +96,15 @@ renderLargerThumbnail: true
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
                             let desc = `*┏━━━━━━━━━━━━━━*
-*┃AKINDU-MD SESSION IS*
+*┃SESSION IS*
 *┃SUCCESSFULLY*
 *┃CONNECTED ✅🔥*
-*┗━━━━━━━━━━━━━━━*
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❶ || Creator =  AKINDU MD*
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❷ || WhatsApp Channel =* 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❸ || Owner =* 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❹ || Repo =* 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❺ || You Tube =* 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*AKINDU MD*`;
+*┗━━━━━━━━━━━━━━━*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "AKINDU MD",
+title: "Mercedes",
 thumbnailUrl: "",
 sourceUrl: "",
 mediaType: 2,
